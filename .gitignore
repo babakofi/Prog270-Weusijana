@@ -1,2 +1,6 @@
 .c9revisions
-node_modules
+node_modules/.settings
+/nbproject/project.xml
+/nbproject/project.properties
+/nbproject/private/private.xml
+/.settings
