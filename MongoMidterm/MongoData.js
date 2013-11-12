@@ -28,22 +28,25 @@ angular.module('elvenApp', ['pres'])
 angular.module('pres', ['ngResource'])
 .factory('presidents', function($resource) {
 	console.log('Presidents factory called');
-	var Presidents = $resource('https://api.mongolab.com/api/1/databases/elvenlab01/collections/Presidents/:id', {
+        //mongodb://<dbuser>:<dbpassword>@ds053838.mongolab.com:53838/prog270
+//	var Presidents = $resource('https://api.mongolab.com/api/1/databases/elvenlab01/collections/Presidents/:id', {
+	var Presidents = $resource('https://api.mongolab.com/api/1/databases/prog270/collections/Events/:id', {
       // apiKey:'4fb51e55e4b02e56a67b0b66',
-      apiKey:'qfSxFoUGHBA1EuUlqhux_op2fy6oF_wy',
+      //apiKey:'qfSxFoUGHBA1EuUlqhux_op2fy6oF_wy',
+      apiKey:'Z_3R0QHWI5tPTYDwKhu7gaFJWu_TtNS2',
       id:'@_id.$oid'
     });
 
     Presidents.prototype.getPresidentName = function() {
-      return this.presidentName;
+      return this.title;
     };
     
     Presidents.prototype.getTermStart = function() {
-    	return this.termStart;
+    	return this.content;
     };
     
     Presidents.prototype.getTermEnd = function() {
-    	return this.termEnd;
+    	return this.content;
     };
 
     return Presidents;    
