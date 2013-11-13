@@ -3,12 +3,12 @@ body {
 }
 
 .draw-target {
-	width: 74px;
-	height:74px;
-	background-color: #005500;
+	width: 95px;
+	height:95px;
+	background-color: white;
 	position: relative;
 	float: left;
-	margin: 0px;
+	margin: 10px;
 }
 
 #monogoData {

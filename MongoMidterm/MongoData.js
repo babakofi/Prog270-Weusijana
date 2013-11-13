@@ -5,7 +5,7 @@
 
 angular.module('elvenApp', ['pres'])
 .controller('MyController', function($scope, $http, presidents) {
-    $scope.hint = "<p>Start with <strong>node server.js</strong> to retrieve JSON from Server</p>";
+    $scope.hint = "<hr/>";//"<p>Start with <strong>node server.js</strong> to retrieve JSON from Server</p>";
     
     // $scope.presidents = presidents;
     $scope.presidents = presidents.query({}, function(users) {

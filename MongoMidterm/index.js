@@ -57,16 +57,16 @@ var moveSprite = function(options) {
 
 var sprites = [];
 
-function animate($drawTarget, image, ready) {	
+function animate($drawTarget, image, ready, imagesWidth, width, height, x, y) {	
 	
 	var animSprite = moveSprite({
 			images: image,
-			imagesWidth: 256,
-			width: 64,
-			height: 64,
+			imagesWidth: imagesWidth,
+			width: width,
+			height: height,
 			$drawTarget: $drawTarget,
-			x: 5,
-			y: 5,
+			x: x,
+			y: y,
 			clockwise: true,
 	});
 		
@@ -75,10 +75,10 @@ function animate($drawTarget, image, ready) {
 	
 	function move() {	
 		for (var i = 0; i < sprites.length; i++) {
-			console.log(i);	
+			//console.log(i);	
 			sprites[i].moveAndDraw();
 		}		
-		setTimeout(move, 35);
+		setTimeout(move, 350);
 	}
 	
 	if (ready) {
@@ -89,6 +89,6 @@ function animate($drawTarget, image, ready) {
 $(document).ready(function() {
 	var target01 = $('#drawHere01');
 	var target02 = $('#drawHere02');
-	animate(target01, 'Shapes01.png', true);
-	animate(target02, 'Shapes02.png', false);	
+	animate(target01, 'Shapes01.png', true, 380, 95, 95, 4, 4);
+	animate(target02, 'Shapes02.png', true, 380, 95, 95, 4, 4);	
 });
