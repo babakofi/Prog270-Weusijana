@@ -1,67 +1,109 @@
 <!DOCTYPE HTML>
-<html ng-app="elvenApp">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>History of Mobile Learning</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="favicon.png">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-		<link href="index.css" rel="stylesheet" type="text/css" />
-		<!-- Latest compiled and minified JavaScript - Move to bottom of body element -->
-		<script src="//code.jquery.com/jquery.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-		<script src="angular.js"></script>
-		<script src="angular-resource.js"></script>
-		<script src="index.js"></script>
-		<script src="MongoData.js"></script>
-	</head>
-	<body>
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-					</button>
-					<a class="navbar-brand" href="index.html">Baba Kofi</a>
-				</div>
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="About.html">About</a></li>
-						<li><a href="Contacts.html">Contact</a></li>
-					</ul>
-				</div><!--/.nav-collapse -->
-			</div>
-		</div>
+<html ng-app="elvenApp"><head>
 
-		<div class="container">
-			<div class="starter-template">
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>History of Mobile Learning</title>
+  
 
-				<h1>History of Mobile Learning</h1>
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-				<div id='drawHere01' class='draw-target'></div>
-                                <p>The term m-learning or "mobile learning", has different meanings for different communities, that refer to a subset of e-learning, educational technology and distance education, that focuses on learning across contexts and learning with mobile devices. One definition of mobile learning is, "any sort of learning that happens when the learner is not at a fixed, predetermined location, or learning that happens when the learner takes advantage of the learning opportunities offered by mobile technologies." In other words, with the use of mobile devices, learners can learn anywhere and at any time.</p>
-                                <p>M-learning technologies include handheld computers, MP3 players, notebooks, mobile phones and tablets. M-learning focuses on the mobility of the learner, interacting with portable technologies, and learning that reflects a focus on how society and its institutions can accommodate and support an increasingly mobile population. There is also a new direction in m-learning that gives the instructor more mobility and includes creation of on the spot and in the field learning material that predominately uses smartphone with special software such as AHG Cloud Note. Using mobile tools for creating learning aides and materials becomes an important part of informal learning.</p>
-                                <p>M-learning is convenient in that it is accessible from virtually anywhere. M-learning, like other forms of e-learning, is also collaborative. Sharing is almost instantaneous among everyone using the same content, which leads to the reception of instant feedback and tips. This highly active process has proven to increase exam scores from the fiftieth to the seventieth percentile, and cut the dropout rate in technical fields by 22 percent. M-learning also brings strong portability by replacing books and notes with small RAMs, filled with tailored learning contents. In addition, it is simple to utilize mobile learning for a more effective and entertaining experience.</p>
-				<div id="monogoData" ng-controller="MyController">
-					<p>{{presidentsLength}} M-Learning Events:</p><hr/>
-					<ul>
-						<li ng-repeat="president in presidents">
-							<p>{{president.getPresidentName()}}<br/>
-								{{president.getTermStart()}}<br/>
-								<!--TermEnd: {{president.getTermEnd()}}</p>-->
-						</li>
-					</ul>
-					<div ng-bind-html-unsafe="hint"></div>
-				</div>
-			</div>
+  
+  <link rel="shortcut icon" href="favicon.png"><!-- Latest compiled and minified CSS -->
 
-		</div><!-- /.container -->
-                <b>Reference:<b><br/><a href="https://en.wikipedia.org/wiki/M-learning" target="_blank">The Wikipedia Project</a>
-	</body>
-</html>
+
+  
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- Optional theme -->
+
+
+  
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+
+  
+  <link href="index.css" rel="stylesheet" type="text/css"><!-- Latest compiled and minified JavaScript - Move to bottom of body element -->
+
+
+  
+  <script src="//code.jquery.com/jquery.js"></script>
+  
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  
+  <script src="angular.js"></script>
+  
+  <script src="angular-resource.js"></script>
+  
+  <script src="index.js"></script>
+  
+  <script src="MongoData.js"></script></head><body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+<div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"> </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> </button> <a class="navbar-brand" href="index.html">Baba Kofi</a> </div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="Contacts.html">Contact</a></li>
+</ul>
+</div>
+<!--/.nav-collapse --> </div>
+</div>
+
+<div class="container">
+<div class="starter-template">
+<h1>History of Mobile Learning</h1>
+
+<p>The term m-learning or "mobile learning", has different meanings for
+different communities, that refer to a subset of e-learning,
+educational technology and distance education, that focuses on learning
+across contexts and learning with mobile devices. One definition of
+mobile learning is, "any sort of learning that happens when the learner
+is not at a fixed, predetermined location, or learning that happens
+when the learner takes advantage of the learning opportunities offered
+by mobile technologies." In other words, with the use of mobile
+devices, learners can learn anywhere and at any time.</p>
+<p>M-learning technologies include handheld computers, MP3 players,
+notebooks, mobile phones and tablets. M-learning focuses on the
+mobility of the learner, interacting with portable technologies, and
+learning that reflects a focus on how society and its institutions can
+accommodate and support an increasingly mobile population. There is
+also a new direction in m-learning that gives the instructor more
+mobility and includes creation of on the spot and in the field learning
+material that predominately uses smartphone with special software such
+as AHG Cloud Note. Using mobile tools for creating learning aides and
+materials becomes an important part of informal learning.</p>
+<p>M-learning is convenient in that it is accessible from virtually
+anywhere. M-learning, like other forms of e-learning, is also
+collaborative. Sharing is almost instantaneous among everyone using the
+same content, which leads to the reception of instant feedback and
+tips. This highly active process has proven to increase exam scores
+from the fiftieth to the seventieth percentile, and cut the dropout
+rate in technical fields by 22 percent. M-learning also brings strong
+portability by replacing books and notes with small RAMs, filled with
+tailored learning contents. In addition, it is simple to utilize mobile
+learning for a more effective and entertaining experience.</p>
+<p><a href="https://en.wikipedia.org/wiki/Linguaphone_%28company%29" frame="_blank"><img style="border: 2px solid ; width: 210px; height: 33px;" alt="Linguaphone logo" title="Linguaphone logo" src="Linguaphone.png"></a><br>
+</p>
+
+<div id="monogoData" ng-controller="MyController">
+<p>{{presidentsLength}} M-Learning Events:</p>
+<hr>
+<ul>
+  <li ng-repeat="president in presidents">
+    <p>{{president.getPresidentName()}}<br>
+{{president.getTermStart()}}<br>
+<!--TermEnd: {{president.getTermEnd()}}</p>--> </p>
+  </li>
+</ul>
+
+</div>
+<a href="https://en.wikipedia.org/wiki/Dynabook" frame="_blank"><img title="Alan Kay holding the prototype of Dynabook" style="border: 2px solid ; width: 320px; height: 213px;" longdesc="Alan Kay holding the prototype of Dynabook. (November 5, 2008 in Mountain View, California)" alt="Alan Kay holding the prototype of Dynabook" src="320px-Alan_Kay_and_the_prototype_of_Dynabook.jpg"></a>&nbsp;
+<p><b>
+Reference:<b><br>
+<a href="https://en.wikipedia.org/wiki/M-learning" target="_blank">The
+Wikipedia Project</a> </b></b></p>
+</div>
+<b><b> </b></b></div>
+
+<!-- /.container --><b><b> </b></b>
+</body></html>
