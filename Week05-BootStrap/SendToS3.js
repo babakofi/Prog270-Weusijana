@@ -146,14 +146,14 @@ function walkDirs(folderName) {
 // walkDirs('Style');
 writeFile('About.html', '/About.html', false);
 writeFile('Contacts.html', '/Contacts.html', false);
-writeFile('Design_Management_in_brief.jpg', '/Design_Management_in_brief.jpg', true);
-writeFile('favicon.png', '/favicon.png', true);
+writeFile('Design_Management_in_brief.jpg', '/Design_Management_in_brief.jpg', false);
+writeFile('favicon.png', '/favicon.png', false);
 writeFile('Grid.css', '/Grid.css', false);
-writeFile('Hippocampus.gif', '/Hippocampus.gif', true);
+writeFile('Hippocampus.gif', '/Hippocampus.gif', false);
 writeFile('Home.html', '/Home.html', false);
 writeFile('index.css', '/index.css', false);
 writeFile('index.html', '/index.html', false);
 writeFile('Jumbo.css', '/Jumbo.css', false);
-writeFile('rwd.jpg', '/rwd.jpg', true);
+writeFile('rwd.jpg', '/rwd.jpg', false);
 writeFile('server.js', '/server.js', false);
 //listBuckets(s3);
