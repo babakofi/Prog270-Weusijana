@@ -4,7 +4,7 @@
 /* jshint browser: true, devel: true, node: true, unused: true */
 
 var AWS = require('aws-sdk');
-var config = AWS.config.loadFromPath('/src/Config/config.json');
+var config = AWS.config.loadFromPath('config.json');
 var s3 = new AWS.S3();
 var fs = require('fs');
 var walk = require('walk');
@@ -155,5 +155,5 @@ writeFile('index.css', '/index.css', false);
 writeFile('index.html', '/index.html', false);
 writeFile('Jumbo.css', '/Jumbo.css', false);
 writeFile('rwd.jpg', '/rwd.jpg', true);
-writeFile('server.js', '/server.js', true);
+writeFile('server.js', '/server.js', false);
 //listBuckets(s3);
