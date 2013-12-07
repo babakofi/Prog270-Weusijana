@@ -40,3 +40,7 @@ article {
     font-weight: bold;
 }
 
+#wrapper {
+    border-left: #FFFFFF solid 5px;
+    border-right: #FFFFFF solid 5px;
+}

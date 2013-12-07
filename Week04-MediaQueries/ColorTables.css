@@ -86,8 +86,8 @@ article {
 /* Border for screens wider than 702px */
 @media only screen and (min-width: 702px) {
 	#wrapper {
-		border-left: #594431 solid 1px;
-        border-right: #594431 solid 1px;
+		border-left: #FFFFFF solid 5px;
+        border-right: #FFFFFF solid 5px;
 	}
 }
 
