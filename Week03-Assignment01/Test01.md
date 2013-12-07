@@ -13,3 +13,11 @@ This image was originally posted on Flickr by Nicki Dugan, TheNickster
 Students in an elementary classroom 
 
 ![Students in an elementary classroom  By Ente75 (Own work) [Public domain], via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Students_in_a_classroom.jpg/512px-Students_in_a_classroom.jpg "Students in an elementary classroom  By Ente75 (Own work) [Public domain], via Wikimedia Commons")
+
+### Keywords
+*   Technology
+    * Mobile
+*   Education
+    1.  Conceptions
+        * Misconceptions
+    2.  Cultural Symbols
