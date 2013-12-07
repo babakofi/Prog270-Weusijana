@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* Basic rules for all devices based on mobiles*/
+body {
+    background-color: #770001;
+    color: #440000;
+}
+
+p {
+    font-size: large;
+}
+
+header {
+    background-color: #aa0000;
+    color: #ffbbbf;
+}
+
+article {
+    background-color: #ff0300;
+    color: #880300;
+}
+
+.position01 {
+    width: 50px;
+    height: 50px;
+    background-color: #ffbdbb;
+    font-weight: bold;
+}
+
+.position02 {
+    width: 50px;
+    height: 50px;
+    background-color: #ff8888;
+    font-weight: bold;
+}
+
+.position03 {
+    width: 50px;
+    height: 50px;
+    background-color: #ff5557;
+    font-weight: bold;
+}
+
+/* Rules for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: #007700;
+        color: #004400;
+    }
+    
+    p {
+        font-size: large;
+    }
+    
+    header {
+        background-color: #00AA00;
+        color: #BBFFBB;
+    }
+    
+    article {
+        background-color: #00FF00;
+        color: #008800;
+    }
+    
+    .position01 {
+        width: 50px;
+        height: 50px;
+        background-color: #BBFFBB;
+        font-weight: bold;
+    }
+    
+    .position02 {
+        width: 50px;
+        height: 50px;
+        background-color: #88FF88;
+        font-weight: bold;
+    }
+    
+    .position03 {
+        width: 50px;
+        height: 50px;
+        background-color: #55FF55;
+        font-weight: bold;
+    }
+}
+
+/* Border for screens wider than 702px */
+@media only screen and (min-width: 702px) {
+	#wrapper {
+		border-left: #594431 solid 1px;
+        border-right: #594431 solid 1px;
+	}
+}
+
+/* Rules for desktops */
+@media only screen and (min-width: 769px) {
+    body {
+        background-color: #010077;
+        color: #000044;
+    }
+    
+    p {
+        font-size: large;
+    }
+    
+    header {
+        background-color: #0200aa;
+        color: #bcbbff;
+    }
+    
+    article {
+        background-color: #0100ff;
+        color: #000088;
+    }
+    
+    .position01 {
+        width: 50px;
+        height: 50px;
+        background-color: #bcbbff;
+        font-weight: bold;
+    }
+    
+    .position02 {
+        width: 50px;
+        height: 50px;
+        background-color: #8988ff;
+        font-weight: bold;
+    }
+    
+    .position03 {
+        width: 50px;
+        height: 50px;
+        background-color: #5555ff;
+        font-weight: bold;
+    }
+}

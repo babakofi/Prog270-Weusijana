@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* Rules for desktops */
+body {
+    background-color: #010077;
+    color: #000044;
+}
+
+p {
+    font-size: large;
+}
+
+header {
+    background-color: #0200aa;
+    color: #bcbbff;
+}
+
+article {
+    background-color: #0100ff;
+    color: #000088;
+}
+
+.position01 {
+    width: 50px;
+    height: 50px;
+    background-color: #bcbbff;
+    font-weight: bold;
+}
+
+.position02 {
+    width: 50px;
+    height: 50px;
+    background-color: #8988ff;
+    font-weight: bold;
+}
+
+.position03 {
+    width: 50px;
+    height: 50px;
+    background-color: #5555ff;
+    font-weight: bold;
+}
+
