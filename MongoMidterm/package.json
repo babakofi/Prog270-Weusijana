@@ -1,0 +1,8 @@
+{
+  "name": "Walk09Android",
+	"version": "0.1.0",
+	"dependencies": {
+		"walk": "2.2.1",
+		"aws-sdk": ">0.9.0"
+	}
+}
