@@ -63,6 +63,7 @@ angular.module('PresidentsApp', ['pres'])
         $scope.presidents[indexOfItemToUpdate].firstName = $scope.firstName;
         $scope.presidents[indexOfItemToUpdate].lastName = $scope.lastName;
         $scope.presidents[indexOfItemToUpdate].city = $scope.city;
+        $scope.presidents[indexOfItemToUpdate].address = $scope.address;
         $scope.presidents[indexOfItemToUpdate].state = $scope.state;
         $scope.presidents[indexOfItemToUpdate].zip = $scope.zip;
         $scope.presidents[indexOfItemToUpdate].phoneHome = $scope.phoneHome;
