@@ -5,3 +5,6 @@ node_modules/.settings
 /nbproject/private/private.xml
 /.settings
 /Week09-AndroidBootstrap/.project
+/node_modules/
+/Week09-AndroidBootstrap/node_modules/
+/config.json
