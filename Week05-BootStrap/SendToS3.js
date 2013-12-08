@@ -4,7 +4,7 @@
 /* jshint browser: true, devel: true, node: true, unused: true */
 
 var AWS = require('aws-sdk');
-var config = AWS.config.loadFromPath('config.json');
+var config = AWS.config.loadFromPath('../config.json');
 var s3 = new AWS.S3();
 var fs = require('fs');
 var walk = require('walk');
@@ -88,7 +88,7 @@ function writeFile(localFileName, nameOnS3, binary) {
 
 function walkDirs(folderName) {
 	var options = {
-		followLinks : false,
+		followLinks : false
 	};
 
 	var walker = walk.walk(folderName, options);
