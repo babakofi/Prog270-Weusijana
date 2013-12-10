@@ -170,7 +170,6 @@ writeLocalFile('index.html', false);
 writeLocalFile('lubuntuscreenshot.PNG', false);
 writeLocalFile('MongoData.js', false);
 writeLocalFile('Pictures.html', false);
-writeLocalFile('Screenshot from 2013-11-18 21:00:42.png', false);
 writeLocalFile('Screenshot.png', false);
 writeLocalFile('Server.js', false);
 writeLocalFile('us-presidents.png', false);
